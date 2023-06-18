@@ -1,6 +1,6 @@
 # **CSI606-2021-02 - Remoto - Proposta de Trabalho Final**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## Aluno: Emerson Luiz Oliveira
 
 --------------
 
@@ -8,28 +8,29 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+ Sistema de agendamento para atendimento de tutorias: O sistema permite a exibição da agenda com disponibilidade de horários para atendimento bem como permite o agendamento para atendimento em horários com disponibilidade, alteração em agendamentos já realizados e cancelamento de agendamentos.
 
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de ...
+  Sistema de agendamento para atendimento de tutorias
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+  O sistema permite a exibição da agenda com disponibilidade de horários para atendimento bem como permite o agendamento para atendimento em horários com disponibilidade, alteração em agendamentos já realizados e cancelamento de agendamentos.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+  Neste trabalho não serão considerados o número de atendimentos simultâneos permitindo o agendamento de apenas 1 aluno por horário e a princípio não haverá restrição para edição de agendamentos.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
+  Sem protótipos até o momento, possivelmente será simulada uma interface no Figma.
 
 ### 5. Referências
 
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+--
+
