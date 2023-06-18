@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Emerson Luiz Oliveira
+- Matrícula: 21.1.8124
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 23.1
+- Link para o seu GitHub: https://github.com/ONEmerson
 
 ## [Projeto final:](./Projeto/README.md)
 
