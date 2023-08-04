@@ -1,0 +1,204 @@
+###------------------------------------------ ESTADO --------------------------------------
+
+### Criar Estado
+POST http://localhost:3000/estados
+Content-Type: application/json
+
+{
+  "nome": "Acre",
+  "sigla": "AC"
+}
+
+### Buscar todos Estados
+GET http://localhost:3000/estados
+
+### Atualizando Estado de id 1 
+PUT http://localhost:3000/estados/1
+Content-Type: application/json
+
+{
+  "nome": "São Paulo",
+  "sigla": "SP"
+}
+
+### Deletando Estado de id = 1
+DELETE http://localhost:3000/estados/1
+
+###------------------------------------------ CIDADE --------------------------------------
+
+### Criando Cidade
+POST http://localhost:3000/cidades
+Content-Type: application/json
+
+{
+  "nome": "Vespasiano",
+  "estado_id": 2
+}
+
+### Buscar todas Cidades
+GET http://localhost:3000/cidades
+
+### Atualizando cidade de id 1
+PUT http://localhost:3000/cidades/2
+Content-Type: application/json
+
+{
+  "nome": "Ribeirão das Neves",
+  "estado_id": 2
+}
+
+### Excluindo cidade id 1
+DELETE http://localhost:3000/cidades/1
+Content-Type: application/json
+
+###------------------------------------------ PRODUTOS --------------------------------------
+
+### Criar produto
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+  "descricao": "Segundo Produto",
+  "valor_unitario": 0.0
+}
+
+
+### Buscar todos Produtos
+GET http://localhost:3000/produtos
+
+### Atualizar um Produto id 1
+PUT http://localhost:3000/produtos/2
+Content-Type: application/json
+
+{
+  "descricao": "Produto Atualizado",
+  "valor_unitario": 60.0
+}
+
+### Deletar um produto id 1
+DELETE http://localhost:3000/produtos/1
+
+###------------------------------------------ USUARIOS --------------------------------------
+
+### Criar usuario
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "nome": "Usuário 3",
+  "email": "usuario3@example.com",
+  "senha": "33333"
+}
+
+### Buscar todos usuario
+GET http://localhost:3000/usuarios
+
+### Atualizar usuario id 1
+PUT http://localhost:3000/usuarios/1
+Content-Type: application/json
+
+{
+  "nome": "Usuário Atualizado",
+  "email": "atualizado@example.com",
+  "senha": "654321"
+}
+
+### Deletear usuario id 1
+DELETE http://localhost:3000/usuarios/2
+
+
+###------------------------------------------ ENDERECOS --------------------------------------
+
+### Criar endereco
+POST http://localhost:3000/enderecos
+Content-Type: application/json
+
+{
+  "usuario_id": 3,
+  "rua": "Rua C",
+  "numero": "122",
+  "bairro": "Bairro D",
+  "cidade_id": 1,
+  "telefone": "(00) 1234-2222"
+}
+
+### Buscar todos enderecos
+GET http://localhost:3000/enderecos
+
+### Atualizar endereco id 1
+PUT http://localhost:3000/enderecos/3
+Content-Type: application/json
+
+{
+  "usuario_id": 3,
+  "rua": "Rua Atualizada",
+  "numero": "456",
+  "bairro": "Bairro Atualizado",
+  "cidade_id": 2,
+  "telefone": "(00) 9876-5432"
+}
+
+### Deletar endereco id 1
+DELETE http://localhost:3000/enderecos/1
+
+###------------------------------------------ COMPRA --------------------------------------
+
+### Criar compra
+POST http://localhost:3000/compras
+Content-Type: application/json
+
+{
+  "usuario_id": 3,
+  "endereco_id": 3,
+  "data": "2023-08-10T12:00:10"
+}
+
+
+### Buscar todas as compras
+GET http://localhost:3000/compras
+
+### Atualizar compra id 1
+PUT http://localhost:3000/compras/1
+Content-Type: application/json
+
+{
+  "usuario_id": 3,
+  "endereco_id": 3,
+  "data": "2023-08-15T14:00:59"
+}
+
+### Deletar compra id 1
+DELETE http://localhost:3000/compras/1
+
+
+###------------------------------------------ COMPRA PRODUTOS --------------------------------------
+
+### Criar compra
+POST http://localhost:3000/compras_produtos
+Content-Type: application/json
+
+{
+  "compra_id": 4,
+  "produto_id": 1,
+  "quantidade": 1,
+  "valor_unitario": 20.0
+}
+
+
+### Buscar todas as compras
+GET http://localhost:3000/compras_produtos
+
+### Atualizar compra id 1
+PUT http://localhost:3000/compras_produtos/1
+Content-Type: application/json
+
+{
+  "compra_id": 1,
+  "produto_id": 2,
+  "quantidade": 5,
+  "valor_unitario": 0.0
+}
+
+
+### Deletar compra id 1
+DELETE http://localhost:3000/compras_produtos/1
