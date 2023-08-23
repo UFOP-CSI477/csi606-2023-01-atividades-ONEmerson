@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#horarios {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#formulario {
+    margin-top: 30px;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form select, form input[type="text"], form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.disponivel {
+    background-color: #b2e8c3;
+}
+
+
+.indisponivel {
+    background-color: #ffb2b2;
+}
+
+
+
+.selecionado {
+    background-color: blue;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#formulario {
+    margin-top: 30px;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+form .input-container {
+    display: flex;
+    align-items: center;
+}
+
+form .input-container label {
+    margin-right: 10px;
+}
+
+form .input-container input[type="text"],
+form .input-container input[type="email"],
+form .input-container input[type="tel"],
+form .input-container input[type="password"],
+form .input-container select {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 20px;
+    grid-column: span 2
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
